@@ -20,10 +20,10 @@ J_p = 2*m_p*l_p^2;
 g = 9.81;
 
 % PID
-K_ie = 0;
+K_ie = 0.1;
 K_pe = 1;
-K_de = 0.1;
+K_de = 10;
 
-K_ip = 0;
-K_pp = 0;
-K_dp = 0;
+K_ip = 0.1;
+K_pp = 1;
+K_dp = 10;
